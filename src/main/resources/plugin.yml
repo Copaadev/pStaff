@@ -1,0 +1,91 @@
+name: pStaff
+version: 1.0.0
+main: me.copa.pstaff.PStaff
+api-version: '1.21'
+author: Copa Development
+description: Ferramentas de moderacao e administracao para servidores Paper.
+commands:
+  staff:
+    description: Ativa o modo staff ou abre subcomandos.
+    usage: /staff [list|reload]
+  vanish:
+    description: Alterna invisibilidade para jogadores comuns.
+  staffchat:
+    aliases: [sc]
+    description: Envia mensagens no chat da equipe.
+  invsee:
+    description: Inspeciona o inventario de um jogador.
+    usage: /invsee <jogador>
+  endersee:
+    description: Inspeciona o Ender Chest de um jogador.
+    usage: /endersee <jogador>
+  freeze:
+    description: Congela um jogador.
+    usage: /freeze <jogador>
+  unfreeze:
+    description: Descongela um jogador.
+    usage: /unfreeze <jogador>
+  warn:
+    description: Aplica um aviso a um jogador.
+    usage: /warn <jogador> <motivo>
+  mute:
+    description: Silencia temporariamente um jogador.
+    usage: /mute <jogador> <tempo>
+  unmute:
+    description: Remove o silencio de um jogador.
+    usage: /unmute <jogador>
+  kick:
+    description: Expulsa um jogador.
+    usage: /kick <jogador> <motivo>
+  heal:
+    description: Restaura a vida.
+    usage: /heal [jogador]
+  feed:
+    description: Restaura a fome.
+    usage: /feed [jogador]
+  fly:
+    description: Alterna o voo.
+    usage: /fly [jogador]
+  god:
+    description: Alterna invulnerabilidade.
+    usage: /god [jogador]
+  clearchat:
+    description: Limpa o chat.
+  workbench:
+    aliases: [wb]
+    description: Abre uma bancada virtual.
+  trash:
+    description: Abre uma lixeira virtual.
+permissions:
+  pstaff.admin:
+    description: Acesso administrativo completo ao pStaff.
+    default: op
+  pstaff.staff:
+    description: Acesso ao modo staff e chat da equipe.
+    default: op
+  pstaff.vanish:
+    default: op
+  pstaff.invsee:
+    default: op
+  pstaff.endersee:
+    default: op
+  pstaff.freeze:
+    default: op
+  pstaff.warn:
+    default: op
+  pstaff.kick:
+    default: op
+  pstaff.mute:
+    default: op
+  pstaff.heal:
+    default: op
+  pstaff.feed:
+    default: op
+  pstaff.fly:
+    default: op
+  pstaff.god:
+    default: op
+  pstaff.clearchat:
+    default: op
+  pstaff.utility:
+    default: op

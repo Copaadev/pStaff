@@ -1,0 +1,13 @@
+prefix: '&8[&b pStaff&8] &7'
+messages:
+  no-permission: '&cVocê não tem permissão para isso.'
+  player-only: '&cEste comando só pode ser usado por jogadores.'
+  player-not-found: '&cJogador não encontrado ou offline.'
+  staff-enabled: '&aModo staff ativado.'
+  staff-disabled: '&cModo staff desativado.'
+  vanish-enabled: '&aVanish ativado.'
+  vanish-disabled: '&cVanish desativado.'
+  frozen: '&cVocê foi congelado pela equipe.'
+  unfrozen: '&aVocê foi descongelado.'
+  freeze-notice: '&eVocê congelou &f%player%&e.'
+  unfreeze-notice: '&eVocê descongelou &f%player%&e.'
